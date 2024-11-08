@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neskih Beauty</title>
+    <link rel="shortcut Icon" href="images/woman.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("images/beautybar.jpeg");
+            background-color: pink;
+            color: #333;
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #f06292;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .header ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .header ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        .header ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: #ec407a;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .header ul li a:hover {
+            background-color: #d81b60;
+        }
+
+        .header input[type="text"] {
+            padding: 10px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            margin-top: 10px;
+            width: 200px;
+            text-align: center;
+            font-size: 1em;
+        }
+
+        .body-section {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: pink;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .body-section h1 {
+            font-size: 2.5em;
+            color: #f06292;
+            background-color: #333;
+        }
+
+        .body-section h2 {
+            font-size: 1.3em;
+            line-height: 1.6;
+            color: #555;
+            margin: 20px 0;
+            background-color: transparent;
+        }
+
+        .body-section img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .body-section h3 {
+            color: #333;
+            margin-top: 20px;
+            font-size: 1.5em;
+            background-color: #f06292;
+        }
+
+        .Contact button {
+            margin-top: 30px;
+            background-color: #f06292;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .Contact button:hover {
+            background-color: #d81b60;
+        }
+
+        .Contact a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .body-section span button {
+            background-color: #f06292;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            margin: 20px 10px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .body-section span button:hover {
+            background-color: #d81b60;
+        }
+
+        .body-section span button a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <!-- Header section -->
+        <div class="header">
+            <ul>
+                <li><button><a href="bebe.html">Home</a></button></li>
+                <li><button><a href="love.html" target="_blank">Services</a></button></li>
+                <li><button><a href="heart.html" target="_blank">Sur nous</a></button></li>
+            </ul>
+            <input type="text" placeholder="Search">
+        </div>
+
+        <!-- Body content section -->
+        <div class="body-section">
+            <h1>Neskih Beauty</h1>
+            <img src="images/woman.png" alt="Image of a woman" height="350" width="350">
+            <h3>A Smile is The Best Make-Up Any Woman Can Wear</h3>
+            <img src="images/beautybar.jpeg" alt="Beauty Bar Image">
+            <h2>
+                Bienvenue chez Neskih Beauty<br><br>    
+                Votre espace dédié à la beauté et au bien-être.<br><br>
+                Nous croyons que chaque personne mérite de se sentir belle et confiante. Notre équipe de professionnels passionnés est là pour vous offrir des soins personnalisés qui sublimeront votre beauté naturelle. <br><br>
+                Que ce soit pour un soin du visage, une mise en beauté, une coiffure ou une manucure, nous utilisons des produits de haute qualité et des techniques à la pointe des dernières tendances pour garantir des résultats exceptionnels. <br><br>
+                Notre objectif est simple : vous offrir une expérience unique dans une ambiance apaisante et luxueuse, où vous pourrez vous détendre et vous ressourcer. Prenez un moment pour vous, venez découvrir Neskih Beauty et laissez-nous révéler le meilleur de vous-même.
+            </h2>
+
+            <img src="images/art1.png" alt="Art Image" height="350" width="350">
+            
+            <br><br>
+            <span>
+                <button><a href="mailto:wendy-wouters@hotmail.com">Réserver</a></button>
+                <button class="Contact"><a href="mailto:wendy-wouters@hotmail.com">Contact</a></button>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
